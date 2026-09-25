@@ -1,0 +1,7 @@
+Run ID,Optimizer,Learning Rate,Batch Size,Epochs,Final Training Loss,Validation Loss,Validation Accuracy (%),Training Time (seconds)
+Batch_32,Adam,0.001,32,3,1.206,1.2087,55.15,10.42
+Baseline,Adam,0.001,64,3,1.2892,1.27,53.85,11.29
+LR_0.005,Adam,0.005,64,3,1.3008,1.3241,52.3,11.01
+LR_0.0005,Adam,0.0005,64,3,1.402,1.389,48.75,10.01
+Batch_128,Adam,0.001,128,3,1.3979,1.4021,48.0,11.3
+SGD_Optimizer,SGD,0.001,64,3,2.3013,2.3007,14.75,9.91
